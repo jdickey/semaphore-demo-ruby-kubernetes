@@ -9,7 +9,7 @@ class App < Sinatra::Base
     "Put this in your pipe & smoke it!"
   end
 
-  get "/sing"
+  get "/sing" do
     "And now, the end is near
     And so I face the final curtain..."
   end
