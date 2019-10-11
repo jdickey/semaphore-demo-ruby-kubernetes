@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: semaphore-demo-ruby-kubernetes
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: semaphore-demo-ruby-kubernetes
